@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height:100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container{
+    border-radius: 20px;
+    margin-top: 25vh;
+    padding: 25px 25px 25px 25px;
+    width:275px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.ty-container{
+    margin-top: 25vh;
+    border-radius: 20px;
+    padding: 25px 25px 25px 25px;
+    width:275px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.message{
+    text-align: center;
+    font-weight: 200;
+    font-size: 13px;
+    color:hsl(217, 12%, 63%);
+    
+}
+
+.ty-container h2{
+    color: hsl(0, 0%, 100%);
+    font-weight: 200;
+    font-size: 23px;
+    text-align: center;
+}
+
+.ty-img{
+    display: flex;
+    justify-content: center;
+}
+
+/* .rating-txt-container{
+    display:flex;
+    justify-content: center;
+} */
+
+.final-score{
+    text-align: center;
+    color:hsl(25, 97%, 53%);
+    background-color:hsl(217, 12%, 63%,0.1);
+    font-weight:100;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+}
+
+
+.container h2{
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+
+.container p{
+    font-size: 13px;
+    text-align:left;
+    line-height: 1.5;
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 20px;
+}
+
+.rating{
+    display:flex;
+    justify-content: space-between;
+}
+
+.star-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:38px;
+    width:38px;
+    border-radius: 50%;
+    background-color: hsl(217, 12%, 22%);
+
+}
+
+.star-img img{
+    height: 13px;
+    width: 14px;
+}
+
+.rating span{
+    font-size: 13px;
+    font-weight: 600;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:39px;
+    width:39px;
+    border-radius: 50%;
+    
+}
+
+button{
+    letter-spacing: 2px;
+    font-weight: 200;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    border-style: none;
+    margin-top: 25px;
+    height: 35px;
+    width:100%;
+    color:hsl(0, 0%, 100%);
+}
+
+button:hover{
+    color:hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.notclicked:hover{
+    background-color: hsl(217, 12%, 63%);
+    color:hsl(0, 0%, 100%); 
+}
+
+.notclicked{
+    color:hsl(217, 12%, 63%);
+    background-color: hsl(217, 12%, 22%);
+}
+
+.clicked {
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
